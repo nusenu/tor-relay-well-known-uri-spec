@@ -26,11 +26,11 @@ The verification of listed Tor relay IDs only succeeds if the claim can be verif
 
 * The file contains one or more Tor relay RSA SHA1 fingerprints operated by the entity in control of this website.
 * Each line contains one fingerprint.
+* The file may contain comments (starting with #).
 * Non-comment lines must be exactly 40 characters long and consist of the following characters [a-fA-F0-9].
 * Fingerprints are not case-sensitive.
 * Each fingerprint MUST appear at most once.
-* The file may contain comments (starting with #).
-* The file must not be larger than one MByte.
+* The file MUST not be larger than one MByte.
 * The file MUST NOT contain fingerprints of Tor bridges (or hashes of bridge fingerprints).
 * The content MUST be a media type of "text/plain".
 
