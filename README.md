@@ -59,6 +59,9 @@ Example file content:
 2z1zAVrLV4E/wEQvfV2gbb9kLtqBGsBEpNQ3d826kwA
 ```
 
+# Change Controller
+
+tor-relay-well-known-uri AT riseup.net
 
 # Related information
 
