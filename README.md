@@ -65,7 +65,7 @@ Example file content:
 * https://gitweb.torproject.org/torspec.git/tree/tor-spec.txt
 * https://gitweb.torproject.org/torspec.git/tree/cert-spec.txt
 * https://gitweb.torproject.org/torspec.git/tree/proposals/220-ecc-id-keys.txt
-* https://github.com/nusenu/ContactInfo-Information-Sharing-Specification
+* https://nusenu.github.io/ContactInfo-Information-Sharing-Specification/#operatorurl
 
 
 
