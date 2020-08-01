@@ -38,8 +38,8 @@ Example file content:
 
 ```
 # we operate these Tor relays
-1234567890123456789012345678901234567ABC
-1234567890123456789012345678901234567890
+A234567890123456789012345678901234567ABC
+B234567890123456789012345678901234567890
 ```
 The RSA SHA1 relay fingerprint can be found in the file named "fingerprint" located in the Tor data directory on the relay.
 
@@ -55,8 +55,8 @@ The RSA SHA1 relay fingerprint can be found in the file named "fingerprint" loca
 Example file content:
 ```
 # we operate these Tor relays
-Y1234jWVlTPtfiwVp11234qct5cHPIcNdKBK//Db274
-B21zAVrLV4E/wEQvfV2gbb9kLtqBGsBEpNQ3d826kwA
+11234jWVlTPtfiwVp11234qct5cHPIcNdKBK//Db274
+2z1zAVrLV4E/wEQvfV2gbb9kLtqBGsBEpNQ3d826kwA
 ```
 
 
