@@ -65,10 +65,9 @@ tor-relay-well-known-uri AT riseup.net
 
 # Related Information
 
-* https://gitweb.torproject.org/torspec.git/tree/tor-spec.txt
-* https://gitweb.torproject.org/torspec.git/tree/cert-spec.txt
-* https://gitweb.torproject.org/torspec.git/tree/proposals/220-ecc-id-keys.txt
-* https://nusenu.github.io/ContactInfo-Information-Sharing-Specification/#operatorurl
+* [https://gitweb.torproject.org/torspec.git/tree/tor-spec.txt](https://gitweb.torproject.org/torspec.git/tree/tor-spec.txt)
+* [https://gitweb.torproject.org/torspec.git/tree/cert-spec.txt](https://gitweb.torproject.org/torspec.git/tree/cert-spec.txt)
+* [https://nusenu.github.io/ContactInfo-Information-Sharing-Specification/#operatorurl](https://nusenu.github.io/ContactInfo-Information-Sharing-Specification/#operatorurl)
 
 
 
