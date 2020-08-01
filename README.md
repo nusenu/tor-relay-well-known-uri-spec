@@ -2,7 +2,7 @@
 # The "tor-relay" Well-Known Resource Identifier
 
 This resource identifier is used for the the verification of [Tor](https://www.torproject.org/) relay contact information 
-(more specifically the [operatorurl](https://github.com/nusenu/ContactInfo-Information-Sharing-Specification/blob/master/README.md#operatorurl)).
+(more specifically the [operatorurl](https://nusenu.github.io/ContactInfo-Information-Sharing-Specification/#operatorurl)).
 It can also be used for autodiscovery of Tor relays run by a given entity.
 It solves the issue that Tor relay contact information is an unidirectional and unverified claim by nature.
 This well-knwon URI aims to allow the verification of the unidirectional claim.
