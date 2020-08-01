@@ -63,7 +63,7 @@ Example file content:
 
 tor-relay-well-known-uri AT riseup.net
 
-# Related information
+# Related Information
 
 * https://gitweb.torproject.org/torspec.git/tree/tor-spec.txt
 * https://gitweb.torproject.org/torspec.git/tree/cert-spec.txt
