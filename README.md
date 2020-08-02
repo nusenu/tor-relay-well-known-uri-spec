@@ -1,3 +1,6 @@
+This is a specification for a well-known registry submission according to [RFC8615](https://tools.ietf.org/html/rfc8615)
+
+current state: draft (not submitted yet)
 
 # The "tor-relay" Well-Known Resource Identifier
 
