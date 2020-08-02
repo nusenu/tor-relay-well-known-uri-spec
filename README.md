@@ -5,7 +5,7 @@ This resource identifier is used for the the verification of [Tor](https://www.t
 (more specifically the [operatorurl](https://nusenu.github.io/ContactInfo-Information-Sharing-Specification/#operatorurl)).
 It can also be used for autodiscovery of Tor relays run by a given entity.
 It solves the issue that Tor relay contact information is an unidirectional and unverified claim by nature.
-This well-knwon URI aims to allow the verification of the unidirectional claim.
+This well-known URI aims to allow the verification of the unidirectional claim.
 It aims to reduce the risk of impersonation attacks, where a Tor relay claims to be operated by a certain entity, but actually isn't.
 
 * An initially (unverified) Tor relay contact information might claim to be related to an
@@ -43,7 +43,7 @@ B234567890123456789012345678901234567890
 ```
 The RSA SHA1 relay fingerprint can be found in the file named "fingerprint" located in the Tor data directory on the relay.
 
-## /.well-known/tor-relay/ed25519-pubkey.txt
+## /.well-known/tor-relay/ed25519-pubkey.txt (format and naming under [discussion](https://lists.torproject.org/pipermail/tor-dev/2020-August/014413.html))
 
 * In addition to RSA1024 identity keys, Tor relays have Ed25519 identity keys.
 * The file contains one or more Tor relay Ed25519 public keys operated by the entity in control of this website.
