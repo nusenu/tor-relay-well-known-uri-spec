@@ -6,7 +6,7 @@ current state: draft (not submitted yet)
 
 This resource identifier is used for the the verification of [Tor](https://www.torproject.org/) relay contact information 
 (more specifically the [operatorurl](https://nusenu.github.io/ContactInfo-Information-Sharing-Specification/#operatorurl)).
-It can also be used for autodiscovery of Tor relays run by a given entity.
+It can also be used for autodiscovery of Tor relays run by a given entity, if the entity domain is known.
 It solves the issue that Tor relay contact information is an unidirectional and unverified claim by nature.
 This well-known URI aims to allow the verification of the unidirectional claim.
 It aims to reduce the risk of impersonation attacks, where a Tor relay claims to be operated by a certain entity, but actually isn't.
@@ -46,21 +46,6 @@ B234567890123456789012345678901234567890
 ```
 The RSA SHA1 relay fingerprint can be found in the file named "fingerprint" located in the Tor data directory on the relay.
 
-## /.well-known/tor-relay/ed25519-pubkey.txt (format and naming under [discussion](https://lists.torproject.org/pipermail/tor-dev/2020-August/014413.html))
-
-* In addition to RSA1024 identity keys, Tor relays have Ed25519 identity keys.
-* The file contains one or more Tor relay Ed25519 public keys operated by the entity in control of this website.
-* Each line contains one fingerprint.
-* This file contains the public Ed25519 master key in base64 encoded format.
-* Non-comment lines must be exactly 43 characters long and only consist of the following characters [a-zA-Z0-9/+] (no padding "=").
-* The content MUST be a media type of "text/plain".
-
-Example file content:
-```
-# we operate these Tor relays
-11234jWVlTPtfiwVp11234qct5cHPIcNdKBK//Db274
-2z1zAVrLV4E/wEQvfV2gbb9kLtqBGsBEpNQ3d826kwA
-```
 
 # Change Controller
 
