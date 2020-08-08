@@ -10,6 +10,7 @@ It can also be used for autodiscovery of Tor relays run by a given entity, if th
 It solves the issue that Tor relay contact information is an unidirectional and unverified claim by nature.
 This well-known URI aims to allow the verification of the unidirectional claim.
 It aims to reduce the risk of impersonation attacks, where a Tor relay claims to be operated by a certain entity, but actually isn't.
+The automated verification will also support the [visualization of relay groups](https://gitlab.torproject.org/tpo/metrics/relay-search/-/issues/40001).
 
 * An initially (unverified) Tor relay contact information might claim to be related to an
 organization by pointing to its website: Tor relay contact information field -> website
